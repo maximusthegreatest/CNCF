@@ -1,0 +1,22 @@
+.hero {
+    width: 100%;
+    height: 50vh;
+    background: url("../img/home-hero.jpg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero h2 {
+    color: white;
+    text-shadow: 2px 2px #333;
+}
+
+#heroText {
+	margin-left: 10%;
+}
+
+ul.navbar-nav {
+	width: 100%;
+}

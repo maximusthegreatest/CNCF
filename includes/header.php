@@ -23,30 +23,34 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-warning sticky-top">
-        <a class="navbar-brand" href="#">Children's Neuroblastoma Cancer Foundation</a>
+
+    <section class="logo">
+        <a class="navbar-brand" href="/home.php"><img src="http://www.cncfhope.org/site.cncfhope.org/images/logo.png" alt="Children's Neuroblastoma Cancer Foundation"></a>
+    </section>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning sticky-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav d-flex justify-content-around">
                 <li class="nav-item">
-                    <a class="nav-link" href="home.php">Home</a>
+                    <a class="nav-link" href="/home.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.php">About</a>
+                    <a class="nav-link" href="/about.php">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="patients_and_families.php">Patients &amp; Families</a>
+                    <a class="nav-link" href="/patients_and_families.php">Patients &amp; Families</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="friends_and_communities.php">Friends &amp; Communities</a>
+                    <a class="nav-link" href="/friends_and_communities.php">Friends &amp; Communities</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="doctors_and_researchers.php">Doctors &amp; Researchers</a>
+                    <a class="nav-link" href="/doctors_and_researchers.php">Doctors &amp; Researchers</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="resources.php">Resources</a>
+                    <a class="nav-link" href="/resources.php">Resources</a>
                 </li>
             </ul>
         </div>
