@@ -35,22 +35,34 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav d-flex justify-content-around">
                 <li class="nav-item">
-                    <a class="nav-link" href="/home.php">Home</a>
+                    <a class="nav-link" href="home.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/about.php">About</a>
+                    <a class="nav-link" href="about.php">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patients &amp; Families</a>
+                    <ul class="dropdown-menu bg-warning">
+                        <li><a href="patients.php">Patients</a></li>
+                        <li><a href="families.php">Families</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Friends &amp; Communities</a>
+                    <ul class="dropdown-menu bg-warning">
+                        <li><a href="friends.php">Friends</a></li>
+                        <li><a href="communities.php">Communities</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Doctors &amp; Researchers</a>
+                    <ul class="dropdown-menu bg-warning">
+                        <li><a href="doctors.php">Doctors</a></li>
+                        <li><a href="researchers.php">Researchers</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/patients_and_families.php">Patients &amp; Families</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/friends_and_communities.php">Friends &amp; Communities</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/doctors_and_researchers.php">Doctors &amp; Researchers</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/resources.php">Resources</a>
+                    <a class="nav-link" href="resources.php">Resources</a>
                 </li>
             </ul>
         </div>

@@ -12,5 +12,5 @@ $(document).ready(function() {
 	// Set active tab
 	var url = window.location.pathname;
 	url = url.split("/").pop();
-	$("a.nav-link[href='/" + url + "']").addClass("active");
+	$("a.nav-link[href='" + url + "']").addClass("active");
 });

@@ -20,3 +20,29 @@
 ul.navbar-nav {
 	width: 100%;
 }
+
+.dropdown-toggle::after {
+	display: none;
+}
+
+.dropdown-menu {
+	padding: 20px;
+	border: none;
+}
+
+.dropdown-menu li {
+	padding-bottom: 5px;
+}
+
+.dropdown-menu a:link {
+	color: rgba(0,0,0,.5);
+}
+
+.dropdown-menu a:visited {
+	color: rgba(0,0,0,.5);
+}
+
+.dropdown-menu a:hover {
+	color: rgba(0,0,0,.9);
+	text-decoration: none;
+}
